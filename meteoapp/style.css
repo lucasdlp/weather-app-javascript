@@ -1,0 +1,47 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto, Helvetica, sans-serif;
+  background: linear-gradient(to right, #90b0ff, #2664ff);
+  padding: 0 10px;
+}
+
+.container {
+  background-color: #ffffffc8;
+  width: 250px;
+  height: 300px;
+  border-radius: 8px;
+  margin: 100px auto 0 auto;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container h3 {
+  font-size: 35px;
+  font-weight: 400;
+  font-family: Lato;
+  margin-top: 10px;
+}
+
+.container .country {
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+.container .temperature {
+  font-size: 50px;
+  margin-top: 25px;
+}
+
+.container .icon {
+  width: 150px;
+}
